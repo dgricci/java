@@ -1,13 +1,14 @@
 % Environnement Java 8
 % Didier Richard
 % rév. 0.0.1 du 10/09/2016
+% rév. 0.0.2 du 20/10/2016
 
 ---
 
 # Building #
 
 ```bash
-$ docker build -t dgricci/java:0.0.1 -t dgricci/java:latest .
+$ docker build -t dgricci/java:0.0.2 -t dgricci/java:latest .
 ```
 
 ## Behind a proxy (e.g. 10.0.4.2:3128) ##
@@ -16,7 +17,7 @@ $ docker build -t dgricci/java:0.0.1 -t dgricci/java:latest .
 $ docker build \
     --build-arg http_proxy=http://10.0.4.2:3128/ \
     --build-arg https_proxy=http://10.0.4.2:3128/ \
-    -t dgricci/java:0.0.1 -t dgricci/java:latest .
+    -t dgricci/java:0.0.2 -t dgricci/java:latest .
 ```
 
 # Use #

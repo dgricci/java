@@ -1,7 +1,7 @@
 # Java 8 environment
 # Cf. https://github.com/docker-library/openjdk/blob/baaaf7714f9c66e4c5decf2c108a2738b7186c7f/8-jdk/Dockerfile
 # from Tianon Gravi
-FROM dgricci/jessie:0.0.2
+FROM dgricci/jessie:0.0.3
 MAINTAINER Didier Richard <didier.richard@ign.fr>
 
 RUN \
